@@ -1,4 +1,4 @@
-package linkedLists
+package linkedList
 
 fun removeDups(head: ListNode) {
     var S: ListNode? = head

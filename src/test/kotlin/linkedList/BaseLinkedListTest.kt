@@ -1,4 +1,4 @@
-package linkedLists
+package linkedList
 
 abstract class BaseLinkedListTest {
     companion object {

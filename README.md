@@ -1,5 +1,5 @@
 # Algorithms In Kotlin
- > A series of algorithms from Cracking The Coding Interview
+A series of algorithms from Cracking The Coding Interview
 
 ## Content
 ### Arrays and Strings
@@ -15,7 +15,7 @@
 
 ### Linked Lists
 - [X] Remove Dups
-- [ ] Return Kth to Last
+- [X] Return Kth to Last
 - [ ] Delete Middle Node
 - [ ] Partition
 - [ ] Sum Lists

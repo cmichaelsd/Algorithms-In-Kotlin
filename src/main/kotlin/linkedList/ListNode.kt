@@ -1,4 +1,4 @@
-package linkedLists
+package linkedList
 
 data class ListNode(
     val value: Int,

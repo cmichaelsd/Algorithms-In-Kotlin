@@ -1,4 +1,4 @@
-package linkedLists
+package linkedList
 
 import kotlin.test.Test
 import kotlin.test.assertFalse
