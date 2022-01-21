@@ -7,8 +7,8 @@ import kotlin.test.assertTrue
 internal class RemoveDupsKtTest : BaseLinkedListTest() {
     @Test
     fun valid_linked_list() {
-        val root = createList(arrayListOf(1, 2, 1, 3, 2)) ?: return
-        val expected = createList(arrayListOf(1, 2, 3)) ?: return
+        val root = createList(1, 2, 1, 3, 2)
+        val expected = createList(1, 2, 3)
 
         root.removeDups()
 
@@ -17,8 +17,8 @@ internal class RemoveDupsKtTest : BaseLinkedListTest() {
 
     @Test
     fun invalid_result() {
-        val root = createList(arrayListOf(1, 2, 1, 3, 2)) ?: return
-        val expected = createList(arrayListOf(1, 2, 1, 3, 2)) ?: return
+        val root = createList(1, 2, 1, 3, 2)
+        val expected = createList(1, 2, 1, 3, 2)
 
         root.removeDups()
 

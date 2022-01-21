@@ -2,8 +2,8 @@ package linkedList
 
 abstract class BaseLinkedListTest {
     companion object {
-        fun <T> createList(values: ArrayList<T>): ListNode<T>? {
-            if (values.isEmpty()) return null
+        fun <T> createList(vararg values: T): ListNode<T> {
+            if (values.isEmpty()) return ListNode()
 
             val root = ListNode(values[0])
             var current: ListNode<T>? = root

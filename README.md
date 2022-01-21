@@ -16,8 +16,8 @@ A series of algorithms from Cracking The Coding Interview
 ### Linked Lists
 - [X] Remove Dups
 - [X] Return Kth to Last
-- [ ] Delete Middle Node
-- [ ] Partition
+- [X] Delete Middle Node
+- [X] Partition
 - [ ] Sum Lists
 - [ ] Palindrome
 - [ ] Intersection

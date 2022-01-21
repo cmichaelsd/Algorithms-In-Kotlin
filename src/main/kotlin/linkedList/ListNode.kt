@@ -1,6 +1,6 @@
 package linkedList
 
 data class ListNode <T> (
-    val value: T,
+    var value: T? = null,
     var next: ListNode<T>? = null
 )
