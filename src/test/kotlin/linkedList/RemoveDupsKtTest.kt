@@ -10,7 +10,7 @@ internal class RemoveDupsKtTest : BaseLinkedListTest() {
         val root = createList(arrayListOf(1, 2, 1, 3, 2)) ?: return
         val expected = createList(arrayListOf(1, 2, 3)) ?: return
 
-        removeDups(root)
+        root.removeDups()
 
         assertTrue(compareLists(root, expected))
     }
@@ -20,7 +20,7 @@ internal class RemoveDupsKtTest : BaseLinkedListTest() {
         val root = createList(arrayListOf(1, 2, 1, 3, 2)) ?: return
         val expected = createList(arrayListOf(1, 2, 1, 3, 2)) ?: return
 
-        removeDups(root)
+        root.removeDups()
 
         assertFalse(compareLists(root, expected))
     }

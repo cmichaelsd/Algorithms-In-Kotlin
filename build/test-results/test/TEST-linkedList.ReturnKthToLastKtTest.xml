@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="linkedList.ReturnKthToLastKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-21T07:01:40" hostname="LLAMA" time="0.037">
-  <properties/>
-  <testcase name="k_is_larger_or_equal_to_list_size()" classname="linkedList.ReturnKthToLastKtTest" time="0.037"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

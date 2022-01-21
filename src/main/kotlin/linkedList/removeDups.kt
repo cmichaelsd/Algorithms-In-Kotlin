@@ -1,10 +1,10 @@
 package linkedList
 
-fun removeDups(head: ListNode) {
-    var S: ListNode? = head
+fun <T> ListNode<T>.removeDups() {
+    var S: ListNode<T>? = this
     while (S != null) {
 
-        var E: ListNode? = S
+        var E: ListNode<T>? = S
         while (E != null) {
 
             E.next?.let {

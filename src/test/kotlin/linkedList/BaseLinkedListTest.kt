@@ -2,11 +2,11 @@ package linkedList
 
 abstract class BaseLinkedListTest {
     companion object {
-        fun createList(values: ArrayList<Int>): ListNode? {
+        fun <T> createList(values: ArrayList<T>): ListNode<T>? {
             if (values.isEmpty()) return null
 
             val root = ListNode(values[0])
-            var current: ListNode? = root
+            var current: ListNode<T>? = root
             for (i in 1 until values.size) {
                 val node = ListNode(values[i])
                 current?.next = node
@@ -15,7 +15,7 @@ abstract class BaseLinkedListTest {
             return root
         }
 
-        fun compareLists(r1: ListNode?, r2: ListNode?): Boolean {
+        fun <T> compareLists(r1: ListNode<T>?, r2: ListNode<T>?): Boolean {
             if (r1 == null && r2 == null) return true
             if (r1 == null || r2 == null) return false
 
