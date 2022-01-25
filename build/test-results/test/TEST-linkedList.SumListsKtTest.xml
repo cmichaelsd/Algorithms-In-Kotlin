@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="linkedList.SumListsKtTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-01-25T12:34:02" hostname="LLAMA" time="0.035">
-  <properties/>
-  <testcase name="list_one_is_smaller()" classname="linkedList.SumListsKtTest" time="0.033"/>
-  <testcase name="list_two_is_smaller()" classname="linkedList.SumListsKtTest" time="0.001"/>
-  <testcase name="equal_length_lists()" classname="linkedList.SumListsKtTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

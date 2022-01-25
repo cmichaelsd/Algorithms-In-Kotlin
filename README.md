@@ -19,6 +19,6 @@ A series of algorithms from Cracking The Coding Interview
 - [X] Delete Middle Node
 - [X] Partition
 - [X] Sum Lists
-- [ ] Palindrome
+- [X] Palindrome
 - [ ] Intersection
 - [ ] Loop Detection

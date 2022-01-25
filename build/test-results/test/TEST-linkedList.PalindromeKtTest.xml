@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="linkedList.PalindromeKtTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-01-25T12:59:59" hostname="LLAMA" time="0.036">
+  <properties/>
+  <testcase name="valid_even_palindrome()" classname="linkedList.PalindromeKtTest" time="0.034"/>
+  <testcase name="valid_odd_palindrome()" classname="linkedList.PalindromeKtTest" time="0.0"/>
+  <testcase name="invalid_palindrome()" classname="linkedList.PalindromeKtTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
