@@ -1,18 +1,18 @@
 package linkedList
 
-fun ListNode<Int>.partition(value: Int): ListNode<Int>? {
-    var lesserListHead: ListNode<Int>? = null
-    var lesserListTail: ListNode<Int>? = null
+fun <T> ListNode<T>.partition(predicate: (T?) -> Boolean): ListNode<T>? {
+    var lesserListHead: ListNode<T>? = null
+    var lesserListTail: ListNode<T>? = null
 
-    var greaterListHead: ListNode<Int>? = null
-    var greaterListTail: ListNode<Int>? = null
+    var greaterListHead: ListNode<T>? = null
+    var greaterListTail: ListNode<T>? = null
 
-    var curr: ListNode<Int>? = this
+    var curr: ListNode<T>? = this
     while (curr != null) {
-        val next: ListNode<Int>? = curr.next
+        val next: ListNode<T>? = curr.next
         curr.next = null
 
-        if (curr.value!! < value) {
+        if (predicate(curr.value)) {
             if (lesserListHead == null) {
                 lesserListHead = curr
                 lesserListTail = lesserListHead

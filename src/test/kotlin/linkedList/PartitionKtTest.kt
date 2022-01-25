@@ -9,7 +9,9 @@ internal class PartitionKtTest : BaseLinkedListTest() {
         val root = createList(3, 5, 8, 5, 10, 2, 1)
         val expected = createList(3, 2, 1, 5, 8, 5, 10)
 
-        root.partition(5)
+        root.partition { item ->
+            item?.let { it < 5 } ?: false
+        }
 
         assertTrue(compareLists(expected, root))
     }
@@ -19,7 +21,9 @@ internal class PartitionKtTest : BaseLinkedListTest() {
         val root = createList(5, 6, 7, 8, 9, 10)
         val expected = createList(5, 6, 7, 8, 9, 10)
 
-        root.partition(5)
+        root.partition { item ->
+            item?.let { it < 5 } ?: false
+        }
 
         assertTrue(compareLists(expected, root))
     }
@@ -29,7 +33,9 @@ internal class PartitionKtTest : BaseLinkedListTest() {
         val root = createList(1, 2, 3, 4)
         val expected = createList(1, 2, 3, 4)
 
-        root.partition(5)
+        root.partition { item ->
+            item?.let { it < 5 } ?: false
+        }
 
         assertTrue(compareLists(expected, root))
     }

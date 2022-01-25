@@ -18,7 +18,7 @@ A series of algorithms from Cracking The Coding Interview
 - [X] Return Kth to Last
 - [X] Delete Middle Node
 - [X] Partition
-- [ ] Sum Lists
+- [X] Sum Lists
 - [ ] Palindrome
 - [ ] Intersection
 - [ ] Loop Detection
