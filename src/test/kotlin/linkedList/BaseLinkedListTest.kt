@@ -29,5 +29,19 @@ abstract class BaseLinkedListTest {
 
             return true
         }
+
+        fun <T> ListNode<T>.printList() {
+            var S: ListNode<T>? = this
+            var E: ListNode<T>? = this
+            while (E != null) {
+                println(S?.value)
+                S = S?.next
+                E = E.next?.next
+                if (S === E) {
+                    println("List is circular.")
+                    return
+                }
+            }
+        }
     }
 }

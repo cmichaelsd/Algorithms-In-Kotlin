@@ -21,4 +21,12 @@ A series of algorithms from Cracking The Coding Interview
 - [X] Sum Lists
 - [X] Palindrome
 - [X] Intersection
-- [ ] Loop Detection
+- [X] Loop Detection
+
+### Stacks and Queues
+- [ ] Three in One
+- [ ] Stack Min
+- [ ] Stack of Plates
+- [ ] Queue via Stack
+- [ ] Sort Stack
+- [ ] Animal Shelter
