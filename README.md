@@ -20,5 +20,5 @@ A series of algorithms from Cracking The Coding Interview
 - [X] Partition
 - [X] Sum Lists
 - [X] Palindrome
-- [ ] Intersection
+- [X] Intersection
 - [ ] Loop Detection
