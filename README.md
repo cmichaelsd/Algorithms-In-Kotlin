@@ -24,8 +24,8 @@ A series of algorithms from Cracking The Coding Interview
 - [X] Loop Detection
 
 ### Stacks and Queues
-- [ ] Three in One
-- [ ] Stack Min
+- [X] Three in One
+- [X] Stack Min
 - [ ] Stack of Plates
 - [ ] Queue via Stack
 - [ ] Sort Stack

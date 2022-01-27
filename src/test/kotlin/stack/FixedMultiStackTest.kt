@@ -25,35 +25,35 @@ internal class FixedMultiStackTest {
 
     @Test
     fun push() {
-        assertEquals(multiStack.peek(0), 5)
-        assertEquals(multiStack.peek(1), 10)
-        assertEquals(multiStack.peek(2), 15)
+        assertEquals(5, multiStack.peek(0))
+        assertEquals(10, multiStack.peek(1))
+        assertEquals(15, multiStack.peek(2))
 
         multiStack.push(0, 100)
 
-        assertEquals(multiStack.peek(0), 5)
+        assertEquals(5, multiStack.peek(0))
     }
 
     @Test
     fun pop() {
-        assertEquals(multiStack.pop(0), 5)
-        assertEquals(multiStack.pop(1), 10)
-        assertEquals(multiStack.pop(2), 15)
+        assertEquals(5, multiStack.pop(0))
+        assertEquals(10, multiStack.pop(1))
+        assertEquals(15, multiStack.pop(2))
 
         for (i in 1..5) multiStack.pop(0)
 
-        assertEquals(multiStack.pop(0), null)
+        assertEquals(null, multiStack.pop(0))
     }
 
     @Test
     fun peek() {
-        assertEquals(multiStack.peek(0), 5)
-        assertEquals(multiStack.peek(1), 10)
-        assertEquals(multiStack.peek(2), 15)
+        assertEquals(5, multiStack.peek(0))
+        assertEquals(10, multiStack.peek(1))
+        assertEquals(15, multiStack.peek(2))
 
         for (i in 1..5) multiStack.pop(1)
 
-        assertEquals(multiStack.pop(1), null)
+        assertEquals(null, multiStack.pop(1))
     }
 
     @Test
