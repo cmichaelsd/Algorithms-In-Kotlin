@@ -26,7 +26,7 @@ A series of algorithms from Cracking The Coding Interview
 ### Stacks and Queues
 - [X] Three in One
 - [X] Stack Min
-- [ ] Stack of Plates
+- [X] Stack of Plates
 - [ ] Queue via Stack
 - [ ] Sort Stack
 - [ ] Animal Shelter
