@@ -34,7 +34,7 @@ A series of algorithms from Cracking The Coding Interview
 ### Trees and Graphs
 - [X] Route Between Nodes
 - [X] Minimal Tree
-- [ ] List of Depths
+- [X] List of Depths
 - [ ] Check Balanced
 - [ ] Validate BST
 - [ ] Successor

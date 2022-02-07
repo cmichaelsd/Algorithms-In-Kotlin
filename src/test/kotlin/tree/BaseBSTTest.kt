@@ -14,4 +14,16 @@ abstract class BaseBSTTest {
 
         return list.toIntArray()
     }
+
+    fun BSTNode.toLevelOrderList(): IntArray {
+        val list  = mutableListOf<Int>()
+        val queue = ArrayDeque<BSTNode>().apply { addLast(this@toLevelOrderList) }
+        while(queue.isNotEmpty()) {
+            val curr = queue.removeFirst()
+            list.add(curr.value)
+            curr.left?.let { queue.addLast(it) }
+            curr.right?.let { queue.addLast(it) }
+        }
+        return list.toIntArray()
+    }
 }
