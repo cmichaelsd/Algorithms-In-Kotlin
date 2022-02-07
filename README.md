@@ -36,7 +36,7 @@ A series of algorithms from Cracking The Coding Interview
 - [X] Minimal Tree
 - [X] List of Depths
 - [X] Check Balanced
-- [ ] Validate BST
+- [X] Validate BST
 - [ ] Successor
 - [ ] Build Order
 - [ ] First Common Ancestor

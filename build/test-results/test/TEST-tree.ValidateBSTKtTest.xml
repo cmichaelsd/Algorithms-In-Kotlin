@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tree.ValidateBSTKtTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-02-07T13:42:50" hostname="LLAMA" time="0.034">
+  <properties/>
+  <testcase name="valid_bst()" classname="tree.ValidateBSTKtTest" time="0.033"/>
+  <testcase name="invalid_bst()" classname="tree.ValidateBSTKtTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
