@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tree.ListOfDepthsKtTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-02-07T12:59:39" hostname="LLAMA" time="0.056">
-  <properties/>
-  <testcase name="small_tree()" classname="tree.ListOfDepthsKtTest" time="0.054"/>
-  <testcase name="large_tree()" classname="tree.ListOfDepthsKtTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -35,7 +35,7 @@ A series of algorithms from Cracking The Coding Interview
 - [X] Route Between Nodes
 - [X] Minimal Tree
 - [X] List of Depths
-- [ ] Check Balanced
+- [X] Check Balanced
 - [ ] Validate BST
 - [ ] Successor
 - [ ] Build Order
