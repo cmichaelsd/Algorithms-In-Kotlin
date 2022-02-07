@@ -37,7 +37,7 @@ A series of algorithms from Cracking The Coding Interview
 - [X] List of Depths
 - [X] Check Balanced
 - [X] Validate BST
-- [ ] Successor
+- [X] Successor
 - [ ] Build Order
 - [ ] First Common Ancestor
 - [ ] BST Sequences
