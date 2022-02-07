@@ -33,7 +33,7 @@ A series of algorithms from Cracking The Coding Interview
 
 ### Trees and Graphs
 - [X] Route Between Nodes
-- [ ] Minimal Tree
+- [X] Minimal Tree
 - [ ] List of Depths
 - [ ] Check Balanced
 - [ ] Validate BST
