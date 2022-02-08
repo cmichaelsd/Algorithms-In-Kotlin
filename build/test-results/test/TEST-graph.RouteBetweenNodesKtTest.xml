@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="graph.RouteBetweenNodesKtTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-08T11:34:04" hostname="LLAMA" time="0.089">
-  <properties/>
-  <testcase name="edgeless_graph()" classname="graph.RouteBetweenNodesKtTest" time="0.085"/>
-  <testcase name="valid_directed_graph_and_nodes_connect()" classname="graph.RouteBetweenNodesKtTest" time="0.001"/>
-  <testcase name="valid_directed_graph_and_nodes_do_not_connect()" classname="graph.RouteBetweenNodesKtTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
