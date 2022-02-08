@@ -44,7 +44,7 @@ internal class SuccessorKtTest {
 
     private fun BSTNode.getLeftmost(): BSTNode {
         var left: BSTNode? = this.left
-        while (left?.left != null) left = left.right
+        while (left?.left != null) left = left.left
         return left!!
     }
 
