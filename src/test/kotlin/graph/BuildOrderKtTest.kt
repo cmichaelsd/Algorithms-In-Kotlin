@@ -1,6 +1,7 @@
 package graph
 
 import kotlin.test.Test
+import kotlin.test.assertContentEquals
 
 internal class BuildOrderKtTest {
     private val nodes = listOf<Char>('a', 'b', 'c', 'd', 'e', 'f')
@@ -15,6 +16,7 @@ internal class BuildOrderKtTest {
             charArrayOf('f', 'a',)
         )
         val buildOrder = buildOrder(nodes, edges)
+        assertContentEquals(listOf('e', 'f', 'b', 'a', 'd', 'c'), buildOrder)
     }
 
     @Test
