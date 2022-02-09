@@ -1,17 +1,17 @@
 package tree
 
-fun BSTNode.successor(): BSTNode? {
+fun TreeNode.successor(): TreeNode? {
     return if (this.right != null) this.right!!.leftMostChild()
     else this.properParent()
 }
 
-private fun BSTNode.leftMostChild(): BSTNode {
+private fun TreeNode.leftMostChild(): TreeNode {
     var curr = this
     while (curr.left != null) curr = curr.left!!
     return curr
 }
 
-private fun BSTNode.properParent(): BSTNode? {
+private fun TreeNode.properParent(): TreeNode? {
     var parent = this.parent
     var child  = this
     while (parent != null && parent.left != child) {

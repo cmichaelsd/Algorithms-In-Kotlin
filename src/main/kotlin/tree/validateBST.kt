@@ -1,8 +1,8 @@
 package tree
 
-fun BSTNode.validateBST(): Boolean {
+fun TreeNode.validateBST(): Boolean {
     var valid = true
-    fun recurse(node: BSTNode?) {
+    fun recurse(node: TreeNode?) {
         if (node == null) return
 
         node.left?.let {

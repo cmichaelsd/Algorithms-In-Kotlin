@@ -2,11 +2,11 @@ package tree
 
 import java.util.concurrent.atomic.AtomicInteger
 
-fun BSTNode.checkBalanced(): Boolean {
+fun TreeNode.checkBalanced(): Boolean {
     val leftDepth  = AtomicInteger(0)
     val rightDepth = AtomicInteger(0)
 
-    fun recurse(node: BSTNode?, depth: AtomicInteger) {
+    fun recurse(node: TreeNode?, depth: AtomicInteger) {
         if (node == null) return
         depth.incrementAndGet()
         recurse(node.left, depth)

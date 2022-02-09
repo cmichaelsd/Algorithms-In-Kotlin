@@ -42,23 +42,23 @@ internal class SuccessorKtTest {
         assertEquals(nonLeafNode.value + 1, successor?.value)
     }
 
-    private fun BSTNode.getLeftmost(): BSTNode {
-        var left: BSTNode? = this.left
+    private fun TreeNode.getLeftmost(): TreeNode {
+        var left: TreeNode? = this.left
         while (left?.left != null) left = left.left
         return left!!
     }
 
-    private fun BSTNode.getRightmost(): BSTNode {
-        var right: BSTNode? = this.right
+    private fun TreeNode.getRightmost(): TreeNode {
+        var right: TreeNode? = this.right
         while (right?.right != null) right = right.right
         return right!!
     }
 
-    private fun IntArray.minimalTreeWithParent(): BSTNode? {
-        fun recurse(L: Int, R: Int): BSTNode? {
+    private fun IntArray.minimalTreeWithParent(): TreeNode? {
+        fun recurse(L: Int, R: Int): TreeNode? {
             if (L > R) return null
             val M = (L + R).ushr(1)
-            val root   = BSTNode(this[M])
+            val root   = TreeNode(this[M])
             root.left  = recurse(L, M - 1)
             root.left?.parent = root
             root.right = recurse(M + 1, R)

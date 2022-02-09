@@ -2,9 +2,9 @@ package tree
 
 import java.util.*
 
-fun BSTNode.listOfDepths(): Map<Int, LinkedList<Int>> {
+fun TreeNode.listOfDepths(): Map<Int, LinkedList<Int>> {
     val map = mutableMapOf<Int, LinkedList<Int>>()
-    val queue = ArrayDeque<Pair<BSTNode, Int>>().apply {
+    val queue = ArrayDeque<Pair<TreeNode, Int>>().apply {
         addLast(Pair(this@listOfDepths, 0))
     }
 

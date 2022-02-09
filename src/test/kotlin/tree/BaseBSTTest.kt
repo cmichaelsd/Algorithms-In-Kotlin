@@ -1,10 +1,10 @@
 package tree
 
 abstract class BaseBSTTest {
-    fun BSTNode.toInorderList(): IntArray {
+    fun TreeNode.toInorderList(): IntArray {
         val list = mutableListOf<Int>()
 
-        fun recurse(node: BSTNode?) {
+        fun recurse(node: TreeNode?) {
             node ?: return
             recurse(node.left)
             list.add(node.value)
@@ -15,9 +15,9 @@ abstract class BaseBSTTest {
         return list.toIntArray()
     }
 
-    fun BSTNode.toLevelOrderList(): IntArray {
+    fun TreeNode.toLevelOrderList(): IntArray {
         val list  = mutableListOf<Int>()
-        val queue = ArrayDeque<BSTNode>().apply { addLast(this@toLevelOrderList) }
+        val queue = ArrayDeque<TreeNode>().apply { addLast(this@toLevelOrderList) }
         while(queue.isNotEmpty()) {
             val curr = queue.removeFirst()
             list.add(curr.value)
