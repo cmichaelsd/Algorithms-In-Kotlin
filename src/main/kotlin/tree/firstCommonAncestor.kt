@@ -9,7 +9,7 @@ fun firstCommonAncestor(n1: TreeNode, n2: TreeNode): TreeNode? {
         ancestor = ancestor.parent
     }
 
-    return ancestor
+    return null
 }
 
 private fun isOnPath(ancestor: TreeNode, node: TreeNode): Boolean {
