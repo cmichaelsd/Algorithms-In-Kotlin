@@ -39,9 +39,9 @@ A series of algorithms from Cracking The Coding Interview
 - [X] Validate BST
 - [X] Successor
 - [X] Build Order
-- [ ] First Common Ancestor
-- [ ] BST Sequences
-- [ ] Check Subtree
+- [X] First Common Ancestor
+- [X] BST Sequences
+- [X] Check Subtree
 - [ ] Random Node
 - [ ] Paths with Sum
 
